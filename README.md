@@ -1,4 +1,4 @@
-# Tarea 3, Diseño y Programación Orientados a Objetos
+# Andrade.Lucas-Beiza.Vicente-Oteiza.Pascual-Vicuña.Sebastian-Tarea3.2025.1
 
 Proyecto de algoritmo Publisher-Subscriber en C++.
 Programado en QT Creator.
