@@ -5,7 +5,6 @@
 #include <QWidget>
 
 class QLineEdit;
-class QPushButton;
 
 class VideoPublisher : public QWidget, public Publisher {
     Q_OBJECT
@@ -15,11 +14,10 @@ public:
                    QWidget* parent = nullptr);
 
 private slots:
-    void onPublish();
+    void onReturnPressed();
 
 private:
     QLineEdit*    m_lineEdit;
-    QPushButton*  m_publishBtn;
 };
 
 #endif
