@@ -1,0 +1,14 @@
+release/Broker.o
+release/Component.o
+release/main.o
+release/mainwindow.o
+release/publisher.o
+release/subscriber.o
+release/topic.o
+release/videofollower.o
+release/videoplayerwindow.o
+release/videopublisher.o
+release/moc_mainwindow.o
+release/moc_videofollower.o
+release/moc_videoplayerwindow.o
+release/moc_videopublisher.o

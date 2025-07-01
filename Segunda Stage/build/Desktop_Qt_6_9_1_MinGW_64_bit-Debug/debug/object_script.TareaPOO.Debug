@@ -1,0 +1,14 @@
+debug/Broker.o
+debug/Component.o
+debug/main.o
+debug/mainwindow.o
+debug/publisher.o
+debug/subscriber.o
+debug/topic.o
+debug/videofollower.o
+debug/videoplayerwindow.o
+debug/videopublisher.o
+debug/moc_mainwindow.o
+debug/moc_videofollower.o
+debug/moc_videoplayerwindow.o
+debug/moc_videopublisher.o
