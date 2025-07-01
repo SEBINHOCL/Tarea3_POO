@@ -55,10 +55,8 @@ void GPSCarPublisher::onSelectFile() {
     m_currentTime = m_times.front();
     m_index = 0;
 
-    // Avisamos que ya cargó el archivo: la ventana del seguidor puede mostrarse
     emit fileSelected();
 
-    // Arrancamos la publicación cada segundo
     m_timer->start(1000);
 }
 
