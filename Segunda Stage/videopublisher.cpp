@@ -10,18 +10,19 @@ VideoPublisher::VideoPublisher(const QString& name,
     Publisher(name.toStdString(), topic.toStdString())
 {
     m_lineEdit   = new QLineEdit(this);
-    m_publishBtn = new QPushButton("Publicar", this);
 
     auto* lay = new QHBoxLayout(this);
     lay->addWidget(m_lineEdit);
-    lay->addWidget(m_publishBtn);
+    setLayout(lay);
 
-    connect(m_publishBtn, &QPushButton::clicked,
-            this, &VideoPublisher::onPublish);
+    connect(m_lineEdit, &QLineEdit::returnPressed,
+            this, &VideoPublisher::onReturnPressed);
 }
 
-void VideoPublisher::onPublish() {
-    std::string url = m_lineEdit->text().toStdString();
-    publish(url);
-    m_lineEdit->clear();
+void VideoPublisher::onReturnPressed() {
+    const QString text = m_lineEdit->text().trimmed();
+    if (!text.isEmpty()) {
+        publish(text.toStdString());
+        m_lineEdit->clear();
+    }
 }
