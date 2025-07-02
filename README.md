@@ -16,7 +16,6 @@ El sistema permite publicar y suscribir mensajes de dos dominios: *video* y *tel
 | Qt Creator             | 10 / Qt 6.7    | IDE: compilación y depuración |
 | CMake / QMake          | —              | Compilación desde terminal    |
 | GCC / Clang            | C++17          | Compilador C++                |
-| FFmpeg (opcional)      | 4.x            | Captura/stream de video       |
 
 > **Sistemas probados:** Ubuntu 24.04 LTS y Windows 10 x64.
 
