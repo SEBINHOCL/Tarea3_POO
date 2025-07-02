@@ -90,12 +90,11 @@ Cada línea:
 <tiempo_segundo>  <x_coord>  <y_coord>
 
 Ejemplo:
-
+```md
 0   10   45
 1   12   46
 3   20   50
-
-## 6. Etapa adicional (bonificación)
+```
 
 videoplayerwindow.(h|cpp)
     Añade controles de reproducción (play/pause, seek) y ajuste de FPS.
